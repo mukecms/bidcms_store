@@ -1,0 +1,28 @@
+<?php
+$menu=array(
+'customer'=>array(
+	array("icon"=>"membership","name"=>"会员管理","children"=>array(array("icon"=>"","url"=>"index.php?con=customer&act=privilege","title"=>"会员权益"),array("icon"=>"","url"=>"index.php?con=customer&act=letter","title"=>"站内信"),array("icon"=>"","url"=>"index.php?con=customer&act=point_log","title"=>"积分日志"),array("icon"=>"","url"=>"index.php?con=customer&act=cash","title"=>"资金记录"),)),
+	array("icon"=>"fxsgl","name"=>"分销商管理","children"=>array(array("icon"=>"","url"=>"index.php?con=agent","title"=>"分销商列表"),array("icon"=>"","url"=>"index.php?con=agent&act=rank","title"=>"分销商等级"),array("icon"=>"","url"=>"index.php?con=agent&act=apply","title"=>"分销商审核"),array("icon"=>"","url"=>"index.php?con=agent&act=commission","title"=>"分销商佣金列表"),))
+),
+'system'=>array(
+	array("icon"=>"signup","name"=>"系统设置","children"=>array(array("icon"=>"","url"=>"index.php?con=system","title"=>"店铺信息"),array("icon"=>"","url"=>"index.php?con=system&act=withdraw","title"=>"提现设置"),array("icon"=>"","url"=>"index.php?con=system&act=points","title"=>"积分设置"),array("icon"=>"","url"=>"index.php?con=system&act=auto_confirm","title"=>"自动确认收货设置"),array("icon"=>"","url"=>"index.php?con=system&act=promise","title"=>"服务承诺"),array("icon"=>"","url"=>"index.php?con=system&act=logs","title"=>"系统日志"),array("icon"=>"","url"=>"index.php?con=system&act=domain","title"=>"绑定域名"))),
+	array("icon"=>"cog","name"=>"收款帐号","children"=>array(array("icon"=>"","url"=>"index.php?con=system&act=pay&type=alipay","title"=>"支付宝收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=wx","title"=>"微信收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=jd","title"=>"京东支付收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=paypal","title"=>"paypal收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=paybao","title"=>"贝宝收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=union","title"=>"银联收款账号"),array("icon"=>"","url"=>"index.php?con=system&act=pay&type=bill","title"=>"快钱收款账号"))),
+	array("icon"=>"cog","name"=>"分销商设置","children"=>array(array("icon"=>"","url"=>"index.php?con=system&act=apply","title"=>"分销申请设置"),array("icon"=>"","url"=>"index.php?con=system&act=setting","title"=>"分销商佣金设置"),array("icon"=>"","url"=>"index.php?con=system&act=audit","title"=>"分销商自动审核设置"),array("icon"=>"","url"=>"index.php?con=system&act=agent_rank","title"=>"成为分销商等级设置")))
+	
+),
+'statistics'=>array(
+	array("icon"=>"jytj","name"=>"交易数据","children"=>array(array("icon"=>"","url"=>"index.php?con=statistics","title"=>"订单统计"),)),
+	array("icon"=>"hytj","name"=>"会员数据","children"=>array(array("icon"=>"","url"=>"index.php?con=statistics&act=user_chart","title"=>"会员分析"),)),
+	array("icon"=>"yxtj","name"=>"营销数据","children"=>array(array("icon"=>"","url"=>"index.php?con=statistics&act=point_chart","title"=>"积分统计"),array("icon"=>"","url"=>"index.php?con=statistics&act=coupon_chart","title"=>"优惠券统计"),)),
+	array("icon"=>"smessage","name"=>"短信","children"=>array(array("icon"=>"","url"=>"index.php?con=sms","title"=>"发送记录"),array("icon"=>"","url"=>"index.php?con=sms&act=recharge","title"=>"短信充值"),array("icon"=>"","url"=>"index.php?con=sms&act=recharge_log","title"=>"充值记录"),))
+),
+'shop'=>array(
+	array("icon"=>"home","name"=>"店铺管理","children"=>array(array("icon"=>"","url"=>"index.php?con=shop","title"=>"店铺主页"),array("icon"=>"","url"=>"index.php?con=shop&act=userpage","title"=>"会员主页"),array("icon"=>"","url"=>"index.php?con=shop&act=navigation","title"=>"店铺导航"),array("icon"=>"","url"=>"index.php?con=shop&act=intro","title"=>"分销说明"),array("icon"=>"","url"=>"index.php?con=special&act=cate","title"=>"专题分类"),array("icon"=>"","url"=>"index.php?con=special","title"=>"专题页面")),),
+	array("icon"=>"commodity","name"=>"商品管理","children"=>array(array("icon"=>"","url"=>"index.php?con=goods","title"=>"商品列表"),array("icon"=>"","url"=>"index.php?con=goods&act=cate","title"=>"商品分类"),array("icon"=>"","url"=>"index.php?con=goods&act=group","title"=>"商品分组"),array("icon"=>"","url"=>"index.php?con=goods&&act=add_step2","title"=>"发布商品"),array("icon"=>"","url"=>"index.php?con=goods&act=point_exchange","title"=>"积分兑换商品"),)),
+	array("icon"=>"shield","name"=>"订单管理","children"=>array(array("icon"=>"","url"=>"index.php?con=orders","title"=>"所有订单"),array("icon"=>"","url"=>"index.php?con=orders&act=exchange","title"=>"退/换货审核"),array("icon"=>"","url"=>"index.php?con=orders&act=comment","title"=>"商品评价"),)),
+	array("icon"=>"logistics","name"=>"物流管理","children"=>array(array("icon"=>"","url"=>"index.php?con=freight","title"=>"运费模版"),array("icon"=>"","url"=>"index.php?con=freight&act=delivery","title"=>"快递单模板"),array("icon"=>"","url"=>"index.php?con=freight&act=address","title"=>"提货点管理"),))
+),
+'plugins'=>array(),
+);
+$menu['agent']=$menu['customer'];
+$menu['sms']=$menu['statistics'];

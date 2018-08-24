@@ -1,0 +1,39 @@
+.diy-actions-submit{border:0;}
+.showPosition{ display: inline-block; vertical-align: top;}
+
+.templates{
+	text-align: center;
+}
+.templates a{
+	display: block;
+	margin-right:15px;
+	float: left;
+	width:160px;
+	height:auto;
+}
+.templates a .img{
+	position:relative;
+	border:1px solid #eee;
+}
+.templates a .img img{
+	width:100%;
+	height: auto;
+}
+.templates a .img span{
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background:url(http://store.bidcms.com/statics/images/user_center_check.png) center no-repeat rgba(0,0,0,0.5);
+}
+.templates a.cur .img span{
+	display:block;
+}
+.templates a p{
+	padding-top:10px;
+	color:#333;
+	font-size: 14px;
+}

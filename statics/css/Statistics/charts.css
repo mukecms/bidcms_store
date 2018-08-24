@@ -1,0 +1,216 @@
+.cbc-live {
+    width: 100%;
+    height: 65px;
+    background: url(http://store.bidcms.com/statics/images/charpanel-live.png) no-repeat;
+    background-size: 100% 100%;
+}
+.cbc-live-width{
+    width:49%;
+}
+.cbc-live strong {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 5px;
+    font-family: Arial;
+}
+.cbc-live-blue {
+    color: #3c9dff;
+}
+.cbc-live-blue, .cbc-live-org {
+    padding: 11px 0 0 9px;
+}
+.cbc-live-org {
+    color: #ff9e00;
+}
+.chartTitle{
+    text-align:center;
+}
+.c-text{
+    font-size: 14px;
+    font-weight:bold;
+    line-height:30px;
+}
+.chartselect ul li{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    background:#c7c7c7;
+    color:#fff;
+    width:50px;
+    height:24px;
+    line-height:24px;
+    color:#fff;
+    cursor:pointer;
+    margin-left:5px;
+}
+.nav-tabs li.active{
+    background:#1e8ad5;
+}
+
+/*chart-table*/
+.chart-table{
+    width:100%;
+    background:#fff;
+}
+.chart-table thead td{
+    background:#eee;
+    border-bottom:1px solid #ccc;
+    
+}
+.chart-table td{
+    padding: 10px 10px 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.chart-table tbody tr:hover td{
+    background: #F2F8FC;
+}
+
+.search-box{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.user_table{
+    width:41%;
+}
+
+.user_table .thead{
+    background: #eee;
+    color: #555;
+}
+
+.user_table .thead span{
+    float:left;
+    font-size:14px;
+    padding: 8px 10px;
+    line-height: 1.5em;
+    font-weight:bold;
+}
+
+.user_table .tbody{
+    height:400px;
+    overflow-y:scroll;
+}
+
+.user_table .tbody ul li{
+    border-bottom:solid 1px #eee;
+    overflow:hidden;
+}
+
+.user_table .tbody li>div{
+    font-size:12px;
+    padding: 8px 10px;
+    line-height: 1.5em;
+}
+
+.user_table .tbody li .pro_name{
+    width:28%;
+}
+.user_table .tbody li .pro_name:hover{
+    color:#1C89D5;
+    cursor:pointer;
+}
+
+.user_table .tbody li .pro_user{
+    width:62%;
+}
+
+.user_table .tbody li .pro_user .user_num{
+    display:inline-block;
+    width:30px;
+}
+
+.user_table .user_pro{
+    display:inline-block;
+    width:80%;
+    height:10px;
+    overflow:hidden;
+    margin-left:5px;
+}
+
+.user_table .pro_bar{
+    height:10px;
+    display:block;
+    background:#44b549;
+}
+
+.userchartWrap{
+    border:1px solid #eee;
+}
+.userchartWrap .cb-title{
+    border-bottom:1px solid #eee;
+    background:#f4f5f9;
+}
+.userchartWrap .cb-contain{
+    border-top:none;
+}
+.user_table{
+    position: relative;
+}
+.user_table .tbody .pro_name_tips{
+    position: absolute;
+    top:0;
+    left:28%;
+    /*float:left;*/
+    width:66%;
+    /*height: 100%;*/
+    border:8px solid #A9A9A9;
+    font-size: 12px;
+    /*padding: 8px 10px;*/
+    line-height: 1.5em;
+    z-index: 100;
+    display: inline-block;
+    color:#000;
+    font-family: "微软雅黑";
+    font-weight: none;
+    text-align: center;
+    background:#fff;
+    padding:0px;
+    margin:0px;
+    display:none;
+    }
+
+/*.pro_name_tips ul li {
+    width:35%;
+    font-size: 12px;
+    padding: 8px 10px;
+    line-height: 1.5em;
+    float:left;
+}*/
+.tips_city,.tips_vip{
+    width:50%;
+    font-size: 14px;
+    /*padding: 2px 0px;*/
+    line-height: 1.5em;
+    float:left;
+    font-weight: bold;
+    color:#555;
+    /*border:1px solid red;*/
+
+}
+.tips_city p,.tips_vip p{
+        background:#A9A9A9;
+        height: 30px;
+        line-height: 30px;
+    }
+
+.tips_city ul>li,.tips_vip ul>li{
+    height: 34px;
+    line-height: 34px;
+}
+
+.close_list{
+    position: absolute;
+    top:0%;
+    left:95%;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    color:#000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
